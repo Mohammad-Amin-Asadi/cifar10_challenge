@@ -32,7 +32,7 @@ For ease of installation and execution of the relevant files, you can easily set
 Note that to execute the install.sh file, you need to grant permission to execute it, which you can do using this command.
 
 ``` sudo chmod -R 777 .```
- سپس 
+ next 
 ``` sudo ./install.sh ```
 
 # How to use
@@ -69,7 +69,8 @@ In this section, you can see visualization and tables of these models during tes
 
 # Model keras vs onnx vs Quantized onnx formats for MobileNetV1 Benchmarking (Speed , size)
 
-دقت شود که تست سرعت  عددی میانگین است که از تشخیص یک عکس برای صد مرتبه به دست آماده است
+
+It's important to note that the speed test is a numerical average derived from detecting an image a hundred times.
 
 |  Model         | size (MB)| speed (ms)    |     accuracy     |
 | :---:          |  :---:   |  :---:        |      :---:       |
