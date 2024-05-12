@@ -1,0 +1,33 @@
+{
+    "resnet":{
+        "batch_size": 128,
+        "num_classes": 10,
+        "validation_split": 0.1,
+        "verbose": 2,
+        "n_stacked_boxes": 3,
+        "initial_num_feature_maps": 16,
+        "shortcut_type": "identity",
+        "max_iter_num": 64000,
+        "iteration_boundaries": [32000, 48000],
+        "lr_values": [0.1, 0.01, 0.001],
+        "optimizer_metric": "accuracy",
+        "SGD_momentum": 0.9,
+        "initializer": "HeNormal"
+    },
+    "mobilenet":{
+        "batch_size":128,
+        "num_classes" : 10,
+        "validation_split":0.1,
+        "verbose":2,
+        "n_stacked_boxes":3,
+        "initial_num_feature_maps":16,
+        "shortcut_type":"identity",
+        "max_iter_num":64000,
+        "iteration_boundaries":[32000,48000],
+        "lr_values":[0.1,0.01,0.001],
+        "optimizer_metric":"accuracy",
+        "SGD_momentum":0.9,
+        "initializer" : "HeNormal"
+    
+    }   
+}
